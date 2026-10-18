@@ -1,0 +1,10 @@
+pandoc: '3.10'
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  articles/rob-tools: rob-tools.html
+  robbR: robbR.html
+last_built: 2026-10-18T10:32Z
+urls:
+  reference: https://blmoran.github.io/robbR/reference
+  article: https://blmoran.github.io/robbR/articles
