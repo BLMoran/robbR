@@ -3,6 +3,8 @@ Type: Package
 Title: Risk of Bias Plots for Meta-Analyses in R
 Description: Creates publication ready risk of bias plots for meta-analyses.
 Version: 0.0.0.9000
+URL: https://blmoran.github.io/robbR/
+BugReports: https://blmoran.github.io/robbR/issues
 Authors@R: c(
     person(
       "Benjamin", "Moran",
