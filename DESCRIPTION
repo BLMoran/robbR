@@ -1,0 +1,39 @@
+Package: robbR
+Type: Package
+Title: Risk of Bias Plots for Meta-Analyses in R
+Description: Creates publication ready risk of bias plots for meta-analyses.
+Version: 0.0.0.9000
+Authors@R: c(
+    person(
+      "Benjamin", "Moran",
+      email = "ben.moran@newcastle.edu.au",
+      comment = c(ORCID = "0000-0002-6515-6722"),
+      role = c("aut", "cre")))
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
+Imports: 
+    cli,
+    dplyr (>= 1.1.0),
+    fontawesome,
+    forcats,
+    ggplot2,
+    gt,
+    patchwork,
+    purrr (>= 1.0.0),
+    rlang,
+    S7,
+    scales,
+    stringr,
+    tibble,
+    tidyr,
+    tidyselect
+Depends: 
+    R (>= 4.2.0)
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Config/Needs/website: rmarkdown
