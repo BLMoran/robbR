@@ -1,0 +1,84 @@
+url: https://blmoran.github.io/robbR/
+template:
+  bootstrap: 5
+  bslib:
+    # Primary colours: the night-time robber
+    primary: "#2F3E4E"        # Midnight slate from the mask
+    secondary: "#B8894F"      # Burlap from the loot sack
+    success: "#5E8C4A"        # Muted green (low risk)
+    info: "#E9E1CF"           # Parchment
+    warning: "#C9A227"        # Muted gold (some concerns)
+    danger: "#A23B2A"         # Brick red (high risk)
+    light: "#F6F2E9"          # Light parchment
+    dark: "#1F2830"           # Near-black slate
+
+    # Base colours
+    bg: "#FFFFFF"             # Pure white background
+    fg: "#1F2830"             # Dark text colour
+
+    # Font settings
+    base_font:
+      google: "Open Sans"
+    heading_font:
+      google: "Montserrat"
+    code_font:
+      google: "Source Code Pro"
+
+    # Additional customisation
+    navbar-bg: "#2F3E4E"      # Midnight slate navbar
+    navbar-light-color: "#E9E1CF"
+    navbar-light-hover-color: "#D9B98A"
+    navbar-light-active-color: "#FAFAF8"
+    link-color: "#2F3E4E"
+    link-hover-color: "#B8894F"
+
+navbar:
+  bg: primary
+  type: dark
+  structure:
+    left: [intro, reference, articles, news]
+    right: [search, github, bluesky]
+  components:
+    intro:
+      text: Get Started
+      href: articles/robbR.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    news:
+      text: Changelog
+      href: news/index.html
+    github:
+      icon: fab fa-github
+      href: https://github.com/BLMoran/robbR
+    bluesky:
+      icon: fab fa-bluesky
+      href: https://bsky.app/profile/benmoran.bsky.social
+      aria-label: Bluesky
+
+home:
+  sidebar:
+    structure: [links, license, community, citation, authors, dev]
+
+reference:
+  - title: Main Functions
+    desc: Traffic-light tables and weighted summary bar plots
+    contents:
+      - rob_plot
+      - rob_summary
+
+  - title: Risk of Bias Algorithms
+    desc: Domain and overall judgements from signalling questions
+    contents:
+      - rob2_algorithm
+
+  - title: Example Datasets
+    desc: Fictional risk of bias assessments for each supported tool
+    contents:
+      - rob_datasets
+
+articles:
+  - title: Articles
+    navbar: ~
+    contents:
+      - articles/rob-tools
